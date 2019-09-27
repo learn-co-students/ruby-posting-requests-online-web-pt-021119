@@ -1535,3 +1535,59 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from require at /Users/cillianwing/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54)
+Started GET "/search" for ::1 at 2019-09-26 23:39:01 -0500
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/cillianwing/.rvm/gems/ruby-2.6.3/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 289ms (Views: 284.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-09-26 23:52:18 -0500
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/cillianwing/.rvm/gems/ruby-2.6.3/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 159ms (Views: 154.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-09-26 23:52:21 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vyeDdUjZ2evAIi4r8D7BiBnF4gkmRZmTL/uCLamnS+pwN7H587Fp1ZhRhocVOf0DiGoISzhW5ECcbZnSpAKjtw==", "zipcode"=>"78660", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 356ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-09-26 23:52:35 -0500
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-09-26 23:52:37 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QGBBnV5fZvsiJyLHy31D6N0hvYpYcyM/bj4HR+DN+NePcHMR5TfWxXpUimsuen9jTI5XyEZgXuzdqBy47WgQig==", "zipcode"=>"78660", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 133ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-09-26 23:54:34 -0500
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/cillianwing/.rvm/gems/ruby-2.6.3/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 160ms (Views: 154.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-09-26 23:54:36 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gxkGLkAHTbM2XvwBGIYieU0+1Lm0lb0OwPHLFz4bkbZMCTSi+2/9jW4tVK39gR7y3JE++6qGwN1zZ9DoM7556w==", "zipcode"=>"78660", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 174ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
